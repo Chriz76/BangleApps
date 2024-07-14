@@ -1,4 +1,4 @@
-var settings = Object.assign({
+var scaleFontsSettings = Object.assign({
   // default values
   large: false,
 }, require('Storage').readJSON("scalefonts.json", true) || {});
@@ -10,7 +10,7 @@ function setFontPBF(name) {
 function mapFont(name, size) {
   let f = normalizeFont(name, size);
   
-  if (settings.large)
+  if (scaleFontsSettings.large)
   {
     if (f.name == "6x8" && f.size == 4
       || f.name == "6x15" && f.size == 2 

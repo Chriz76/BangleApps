@@ -1,0 +1,26 @@
+{ "id": "scalefonts",
+  "name": "Scale fonts system wide",
+  "shortName":"Scale fonts",
+  "icon": "app.png",
+  "version":"0.01",
+  "description": "Scale font size larger or smaller for all apps, the launcher, menus, etc. Uses a system wide font optimized for watch displays, with good readaility, multi language support and smooth edges for all sizes.",
+  "type": "bootloader",
+  "tags": "tool",
+  "screenshots": [{"url":"screenshot-1.png"},{"url":"screenshot.png"}],  
+  "supports": ["BANGLEJS2"],
+    "storage": [
+      {"name":"scalefonts.boot.js","url":"scalefonts.boot.js"},
+      {"name":"scalefonts.36.pbf","url":"scalefonts.36.pbf"},
+      {"name":"scalefonts.28.pbf","url":"scalefonts.28.pbf"},
+      {"name":"scalefonts.28b.pbf","url":"scalefonts.28b.pbf"},
+      {"name":"scalefonts.24.pbf","url":"scalefonts.24.pbf"},
+      {"name":"scalefonts.24b.pbf","url":"scalefonts.24b.pbf"},
+      {"name":"scalefonts.18.pbf","url":"scalefonts.18.pbf"},
+      {"name":"scalefonts.18b.pbf","url":"scalefonts.18b.pbf"},
+      {"name":"scalefonts.14.pbf","url":"scalefonts.14.pbf"},
+      {"name":"scalefonts.14b.pbf","url":"scalefonts.14b.pbf"},
+      {"name":"scalefonts.9.pbf","url":"scalefonts.9.pbf"},	  
+      {"name":"scalefonts.settings.js","url":"settings.js"}
+    ],
+  "data": [{"name":"scalefonts.json"}]
+}

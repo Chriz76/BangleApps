@@ -11,7 +11,7 @@
 
   // Show the menu
   E.showMenu({
-    "" : { "title" : "Scale fonts" },
+    "" : { "title" : "Scale Fonts" },
     "< Back" : () => back(),
     'Large': {
       value: !!settings.large,  // !! converts undefined to false
